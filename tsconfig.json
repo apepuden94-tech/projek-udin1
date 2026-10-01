@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node16",
+    "target": "ES2019",
+    "module": "Node16",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
